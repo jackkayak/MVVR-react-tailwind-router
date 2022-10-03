@@ -14,7 +14,7 @@ const Details = () => {
   
           <div>
               <h1 className='py-1 text-4xl font-medium italic inline border-b-4 border-[#D90429]'>The Most Modern Option</h1>
-              <p className='py-12 text-xl px-28 text-gray-300' >Ditch the minivans. Arrive feeling like a VIP, MVVR will take care of you from the moment you enter our vehicle till the moment you arrive to your destination.</p>
+              <p className='py-12 text-xl px-8 text-gray-300' >Ditch the minivans. Arrive feeling like a VIP, MVVR will take care of you from the moment you enter our vehicle till the moment you arrive to your destination.</p>
   
               <div className='grid sm:grid-cols-1 lg:grid-cols-3 gap-4 '>
                   
