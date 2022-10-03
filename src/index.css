@@ -13,3 +13,10 @@
     @apply px-4
   }
 }
+
+
+.bg-hero-gradient {
+  background: rgb(51,49,49);
+background: linear-gradient(180deg, rgba(51,49,49,1) 0%, rgba(41,40,40,1) 29%, rgba(31,26,26,1) 71%);
+
+}

@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from '../assets/logowhite.png'
 import {Link} from 'react-router-dom'
+import ReqButton from './ReqButton'
 
 const NavBar = () => {
   return (
@@ -8,7 +9,7 @@ const NavBar = () => {
         <div className='max-w-[1240px] mx-auto px-4 flex justify-between items-center h-full'>
 
             <div>
-                <img src={Logo} style={{width: '50px'}} alt='logo' />
+                <img src={Logo} style={{width: '60px'}} alt='logo' />
             </div>
 
             <div className='hidden md:flex'>
@@ -17,11 +18,9 @@ const NavBar = () => {
                         <li><Link to='/fleet'>Fleet</Link></li>
                         <li><Link to='/contact'>Contact</Link></li>
                 </ul>
-                </div>
+            </div>
                 
-                <div className='hidden md:flex text-xl text-white font-medium'>
-                    <button className='bg-[#D90429] py-2 px-3 rounded-lg'>Request Ride</button>
-                </div>
+                <ReqButton />
             
         </div>
 
