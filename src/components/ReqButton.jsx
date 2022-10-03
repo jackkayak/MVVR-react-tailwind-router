@@ -7,7 +7,7 @@ const [openModal, setOpenModal] =useState(false)
 
   return (
     <div>
-    <div className='hidden md:flex text-xl text-white font-medium'>
+    <div className='text-xl text-white font-medium'>
                     <button onClick={() => {
                         setOpenModal(true);
                     }} 
