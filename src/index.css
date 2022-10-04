@@ -35,3 +35,20 @@ background: linear-gradient(180deg, rgba(51,49,49,1) 0%, rgba(41,40,40,1) 29%, r
 .radials-bg {
   background:   radial-gradient(100% 119.73% at 0% 0%, #440606 12.28%, #000000 41.16%, rgba(64, 6, 6, 0.96) 100%)
 }
+
+
+
+.card-style {
+  margin: .5rem;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: rgba(99,26,26, .2) 0px 2px 8px 0px;
+}
+
+.card-image {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 250px;
+  
+}

@@ -14,7 +14,7 @@ const NavBar = () => {
  
 
   return (
-    <div className='w-full h-[90px] bg-gray-700 bg-opacity-80 bg-clip-padding blur-backdrop-filter shadow-sm fixed' >
+    <div className='w-full h-[90px] bg-black bg-opacity-70 bg-clip-padding blur-backdrop-filter shadow-sm fixed' >
         <div className='max-w-[1240px] mx-auto px-4 flex justify-between items-center h-full'>
 
             <div>
@@ -36,7 +36,7 @@ const NavBar = () => {
                   {!nav ? <HiMenu /> : <HiMenuAlt3 />}
                 </div>
 
-                <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-gray-700 bg-opacity-95 bg-clip-padding blur-backdrop-filter  text-white flex flex-col justify-center items-center'}>
+                <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-black bg-opacity-90 bg-clip-padding blur-backdrop-filter  text-white flex flex-col justify-center items-center'}>
                   <li className='py-6 text-4xl'>
                     <Link to='/'>Home</Link>
                   </li>
