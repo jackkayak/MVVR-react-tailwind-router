@@ -21,6 +21,10 @@ background: linear-gradient(180deg, rgba(51,49,49,1) 0%, rgba(41,40,40,1) 29%, r
 
 }
 
+.bg-img-back {
+    box-shadow: 10px 15px 0px #1f223c;
+}
+
 .blur-backdrop-filter {
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);

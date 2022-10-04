@@ -12,7 +12,7 @@ const About = () => {
                 <button className='bg-hero-gradient py-3 px-8 rounded-md hvr-shadow tracking-wider'><Link to='/fleet'>View Fleet</Link></button>
             </div>
             <div className='pt-8 '>
-                <img className='hidden sm:flex md:ml-8 max-w-[400px]' src={Bentley} alt="interior of Bentley" />
+                <img className=' bg-img-back hidden sm:flex md:ml-8 max-w-[400px]' src={Bentley} alt="interior of Bentley" />
             </div>
         </div>
     </div>
